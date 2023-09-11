@@ -1,0 +1,95 @@
+.hero_section{
+    background: var(--hero-bg);
+}
+
+.hero_section h2{
+    color: var(--primary-color);
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 20px 0px;
+}
+
+.hero_section p{
+    color: black;
+    line-height: 28px;
+}
+
+.buy_btn{
+    border: none;
+    outline: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    background: black;
+    color: wheat;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 35px;
+}
+
+.buy_btn a{
+    text-decoration: none !important;
+    color: wheat;
+}
+
+.buy_btn a:hover{
+    color: wheat;
+}
+
+.timer_count{
+    background: grey;
+    height: 300px;
+}
+
+.timer_count img{
+    width: 70% !important;
+    height: 70% !important;
+    object-fit: contain;
+}
+
+.counter_img{
+    display: none;
+}
+
+@media only screen and (max-width: 992px) {
+    .hero_content h2{
+        font-size: 2rem;
+    }
+
+    .section_title{
+        outline-style: 1.7rem;
+    }
+
+    .clock_top_content{
+        text-align: center;
+    }
+
+    .count_down-col{
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .hero_content h2{
+        font-size: 1.5rem;
+    }
+
+    .hero_content p{
+        font-size: 1rem;
+    }
+
+    .buy_btn{
+        font-size: 0.9rem;
+    }
+
+    .section_title {
+        font-size: 1.4rem;
+    }
+
+}
+
+@media only screen and (max-width: 576px){
+    .hero_content{
+        padding-top: 0;
+        margin-bottom: 40px;
+    }
+}
